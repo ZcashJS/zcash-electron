@@ -1,0 +1,122 @@
+.sidebar {
+  background: #212121;
+  position: relative;
+
+  &__header {
+    padding:1rem;
+  }
+
+  &__header-content {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #f8c653;
+    background: -webkit-linear-gradient(to bottom, #db9931, #f8c653);
+    background: linear-gradient(to bottom, #db9931, #f8c653);
+    padding: 1rem;
+  }
+
+  &__header-title {
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    img {
+      width: 45px;
+      margin-right: 0.25rem;
+    }
+  }
+
+  &__balance {
+    padding: 1rem 0 0 0;
+  }
+
+  &__balance-label {
+    color: #f9f9f9;
+    font-size: 16px;
+  }
+
+  &__balance-value {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 0.5rem;
+
+    &:after {
+      content: 'ZEC';
+      font-size: 14px;
+      font-weight: 400;
+      padding-left: 0.5rem;
+    }
+  }
+
+  &__balance-sub-value {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  &__menu {
+    margin: 0 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__menu-item {
+    color: #f9f9f9;
+    font-size: 18px;
+    padding: 0.75rem 1.5rem 0.75rem 2rem;
+    cursor: pointer;
+    border-bottom: 1px solid lighten(#212121, 2%);
+    text-decoration: none;
+
+    &:hover {
+      background-color: lighten(#212121, 15%);
+    }
+
+    &.active {
+      background: #f8c653;
+      background: -webkit-linear-gradient(to right, #db9931, #f8c653);
+      background: linear-gradient(to right, #db9931, #f8c653);
+    }
+  }
+
+  &__info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  &__info-title {
+    color: #6b6b6b;
+    padding: 0 0 0.5rem 1.5rem;
+    font-size: 16px;
+  }
+
+  &__info-content {
+    background: #070707;
+    padding: 0.5rem 1.5rem;
+  }
+
+  &__info-line {
+    color: #ebebeb;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &__info-line-label {
+    font-size: 13px;
+  }
+
+  &__info-line-value {
+    font-weight: 800;
+    font-size: 13px;
+  }
+}

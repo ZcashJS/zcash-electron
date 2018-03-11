@@ -1,0 +1,18 @@
+$sidebar-width: 20rem;
+$sidebar-padding: 2rem;
+
+.zcash {
+  display: flex;
+  flex-direction: row;
+
+  .main {
+    width: calc(100vw - #{$sidebar-width});
+    height: calc(100vh - #{2 * $sidebar-padding});
+    padding: $sidebar-padding ;
+  }
+
+  .sidebar {
+    width: $sidebar-width;
+    height: 100vh;
+  }
+}
