@@ -7,7 +7,7 @@ export const configureStore = () => {
   const middlewares = [thunk];
 
   if (process.env.NODE_ENV !== 'production') {
-    middlewares.push(createLogger());
+    // middlewares.push(createLogger());
   }
 
   const store = createStore(

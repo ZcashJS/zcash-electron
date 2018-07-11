@@ -4,17 +4,17 @@ export default [
   // ----------------------------
 
   // createrawtransaction[{ "txid": "id", "vout": n },...] { "address": amount,... }
-  'createrawtransaction',
+  // 'createrawtransaction',
   // decoderawtransaction "hexstring"
-  'decoderawtransaction',
+  // 'decoderawtransaction',
   // decodescript "hex"
-  'decodescript',
+  // 'decodescript',
   // getrawtransaction "txid"(verbose)
-  'getrawtransaction',
+  // 'getrawtransaction',
   // sendrawtransaction "hexstring"(allowhighfees)
-  'sendrawtransaction',
+  // 'sendrawtransaction',
   // signrawtransaction "hexstring"([{ "txid": "id", "vout": n, "scriptPubKey": "hex", "redeemScript": "hex" }, ...]["privatekey1",...]sighashtype)
-  'signrawtransaction',
+  // 'signrawtransaction',
 
 
   // ---------------------
@@ -22,7 +22,7 @@ export default [
   // ---------------------
 
   // createmultisig nrequired["key",...]
-  'createmultisig',
+  // 'createmultisig',
   // estimatefee nblocks
   'estimatefee',
   // estimatepriority nblocks
@@ -34,7 +34,7 @@ export default [
   // validateaddress "bitcoinaddress"
   'validateaddress',
   // verifymessage "bitcoinaddress" "signature" "message"
-  'verifymessage',
+  // 'verifymessage',
 
 
   // ------------------
@@ -42,7 +42,7 @@ export default [
   // ------------------
 
   // addmultisigaddress nrequired["key",...]("account")
-  'addmultisigaddress',
+  // 'addmultisigaddress',
   // backupwallet "destination"
   'backupwallet',
   // dumpprivkey "zcashaddress"
@@ -52,67 +52,67 @@ export default [
   // encryptwallet "passphrase"
   'encryptwallet',
   // getaccount "zcashaddress"
-  'getaccount',
+  // 'getaccount',
   // getaccountaddress "account"
-  'getaccountaddress',
+  // 'getaccountaddress',
   // getaddressesbyaccount "account"
-  'getaddressesbyaccount',
+  // 'getaddressesbyaccount',
   // getbalance("account" minconf includeWatchonly)
-  'getbalance',
+  // 'getbalance',
   // getnewaddress("account")
-  'getnewaddress',
+  // 'getnewaddress',
   // getrawchangeaddress
-  'getrawchangeaddress',
+  // 'getrawchangeaddress',
   // getreceivedbyaccount "account"(minconf)
-  'getreceivedbyaccount',
+  // 'getreceivedbyaccount',
   // getreceivedbyaddress "zcashaddress"(minconf)
-  'getreceivedbyaddress',
+  // 'getreceivedbyaddress',
   // gettransaction "txid"(includeWatchonly)
-  'gettransaction',
+  // 'gettransaction',
   // getunconfirmedbalance
-  'getunconfirmedbalance',
+  // 'getunconfirmedbalance',
   // getwalletinfo
-  'getwalletinfo',
+  // 'getwalletinfo',
   // importaddress "address"("label" rescan)
-  'importaddress',
+  // 'importaddress',
   // importprivkey "zcashprivkey"("label" rescan)
-  'importprivkey',
+  // 'importprivkey',
   // importwallet "filename"
-  'importwallet',
+  // 'importwallet',
   // keypoolrefill(newsize)
-  'keypoolrefill',
+  // 'keypoolrefill',
   // listaccounts(minconf includeWatchonly)
-  'listaccounts',
+  // 'listaccounts',
   // listaddressgroupings
-  'listaddressgroupings',
+  // 'listaddressgroupings',
   // listlockunspent
-  'listlockunspent',
+  // 'listlockunspent',
   // listreceivedbyaccount(minconf includeempty includeWatchonly)
-  'listreceivedbyaccount',
+  // 'listreceivedbyaccount',
   // listreceivedbyaddress(minconf includeempty includeWatchonly)
-  'listreceivedbyaddress',
+  // 'listreceivedbyaddress',
   // listsinceblock("blockhash" target - confirmations includeWatchonly)
-  'listsinceblock',
+  // 'listsinceblock',
   // listtransactions("account" count from includeWatchonly)
-  'listtransactions',
+  // 'listtransactions',
   // listunspent(minconf maxconf["address",...])
-  'listunspent',
+  // 'listunspent',
   // lockunspent unlock[{ "txid": "txid", "vout": n },...]
-  'lockunspent',
+  // 'lockunspent',
   // move "fromaccount" "toaccount" amount(minconf "comment")
-  'move',
+  // 'move',
   // sendfrom "fromaccount" "tozcashaddress" amount(minconf "comment" "comment-to")
   'sendfrom',
   // sendmany "fromaccount" { "address": amount,... } (minconf "comment"["address",...] )
-  'sendmany',
+  // 'sendmany',
   // sendtoaddress "zcashaddress" amount("comment" "comment-to" subtractfeefromamount)
   'sendtoaddress',
   // setaccount "zcashaddress" "account"
-  'setaccount',
+  // 'setaccount',
   // settxfee amount
-  'settxfee',
+  // 'settxfee',
   // signmessage "zcashaddress" "message"
-  'signmessage',
+  // 'signmessage',
 
 
   // -----------------------------

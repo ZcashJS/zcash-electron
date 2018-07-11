@@ -1,0 +1,102 @@
+.table {
+  height: 89vh;
+  border: none;
+
+  .rt-thead {
+    margin-bottom: $base-spacing;
+
+    .rt-tr {
+      padding: $base-spacing ($base-spacing * 2);
+
+      .rt-th {
+        font-weight: 700;
+        font-size: 16px;
+        color: $primary-light;
+        text-align: left;
+      }
+    }
+  }
+
+  .rt-tbody {
+    background: $input-bg-color;
+
+    &::-webkit-scrollbar {
+      width: 20px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: $primary-dark;
+    }
+
+    .rt-tr-group {
+      .rt-tr {
+        padding: 0.5rem 1rem;
+
+        .rt-td {
+          font-size: 14px;
+          color: $primary-light;
+        }
+      }
+    }
+  }
+
+  .pagination-bottom {
+    background: $secondary-dark;
+
+    .-pagination {
+      padding: ($base-spacing * 2) 0;
+    }
+
+    .-next,
+    .-previous {
+      margin-bottom: $base-spacing;
+
+      .-btn {
+        background: $input-bg-color;
+        color: $primary-light;
+        padding: ($base-spacing * 2);
+
+        &:disabled {
+          color: $primary-light;
+        }
+      }
+    }
+
+    .-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .-pageInfo {
+        color: $font-color-sidebar-item;
+        font-size: 10px;
+
+        .-pageJump {
+          input[type=number] {
+            color: $font-color-sidebar-item;
+            background: transparent;
+            border: none;
+            width: 15px;
+            padding: 0;
+            padding-right: 1px;
+            margin: 0;
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+          }
+        }
+
+        .-totalPages {
+          padding-left: 6px;
+        }
+      }
+
+      .-pageSizeOptions {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { formatCurrency } from '../utils/format';
-import logo from '../assets/zcash-black.png';
+import { formatCurrency, abbreviateNumber } from '../utils/format';
+import logo from '../assets/zcash-logo.png';
 
 export default class extends Component {
   componentDidMount() {
@@ -24,18 +24,17 @@ export default class extends Component {
         <div className='sidebar__header-content'>
           <div className='sidebar__header-title'>
             <img src={logo} />
-            <span>ZCash</span>
           </div>
           <div className='sidebar__balance'>
             <div className='sidebar__balance-label'>
-              Total balance
+              Total Balance
               </div>
             <div className='sidebar__balance-value'>
               232.57
               </div>
             <div className='sidebar__balance-sub-value'>
-              ( $77,789.12 )
-              </div>
+              {formatCurrency(77789.12)}
+            </div>
           </div>
         </div>
       </div>
@@ -47,8 +46,10 @@ export default class extends Component {
       { route: '/', label: 'Dashboard' },
       { route: '/send', label: 'Send' },
       { route: '/receive', label: 'Receive' },
-      { route: '/transactions', label: 'Transactions' },
+      // { route: '/transactions', label: 'Transactions' },
+      { route: '/chart', label: 'Chart' },
       { route: '/settings', label: 'Settings' },
+      { route: '/status', label: 'ZCash API Test' },
     ];
 
     return (
@@ -57,6 +58,7 @@ export default class extends Component {
           <NavLink
             key={item.route}
             to={item.route}
+            exact
             activeClassName='active'
             className='sidebar__menu-item'
           >
@@ -72,10 +74,10 @@ export default class extends Component {
 
     return (
       <div className='sidebar__info'>
-        <div className='sidebar__info-title'>
-          Network Status
-        </div>
         <div className='sidebar__info-content'>
+          <div className='sidebar__info-title'>
+            Zcash Network
+          </div>
           <div className='sidebar__info-line'>
             <span className='sidebar__info-line-label'>
               ZEC Price

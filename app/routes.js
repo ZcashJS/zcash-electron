@@ -3,7 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 
 // Routes
 import Sidebar from './containers/sidebar';
-import Dashboard from './views/dashboard';
+import Chart from './views/chart';
+import Dashboard from './containers/dashboard';
 import Send from './views/send';
 import Receive from './views/receive';
 import Transactions from './views/transactions';
@@ -22,24 +23,28 @@ export default () => (
         component={Dashboard}
       />
       <Route
-        exact
         path='/send'
         component={Send}
       />
       <Route
-        exact
         path='/receive'
         component={Receive}
       />
-      <Route
-        exact
+      {/* <Route
         path='/transactions'
         component={Transactions}
+      /> */}
+      <Route
+        path='/chart'
+        component={Chart}
       />
       <Route
-        exact
         path='/settings'
         component={Settings}
+      />
+      <Route
+        path='/status'
+        component={Status}
       />
     </Switch>
   </div>

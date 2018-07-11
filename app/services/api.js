@@ -17,6 +17,7 @@ export const getNetworkMarketCap = () => {
 
 // Wallet
 export const getWalletBalance = () => zcash.z_gettotalbalance();
+export const getListAddresses = () => zcash.z_listaddresses();
 export const getFeeEstimate = () => zcash.estimatefee();
 export const getTransactions = () => zcash.listtransactions();
 export const getListOfAccounts = () => zcash.listaccounts();

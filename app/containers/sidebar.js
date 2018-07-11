@@ -1,4 +1,5 @@
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import Sidebar from '../components/sidebar';
 import { fetchBlockHeight } from '../actions/network-info/block-height';
 import { fetchNetworkHashRate } from '../actions/network-info/hash-rate';
@@ -17,7 +18,7 @@ const mapDispatchToProps = (dispatch) => ({
   fetchWalletBalance: () => dispatch(fetchWalletBalance()),
 });
 
-export default connect(
+export default withRouter(connect(
   mapStateToProps,
   mapDispatchToProps,
-)(Sidebar);
+)(Sidebar));

@@ -1,0 +1,24 @@
+.button {
+  background: $input-bg-color;
+  border: none;
+  box-shadow: none;
+  border-radius: $border-radius;
+  font-size: 14px;
+  font-weight: 700;
+  color: $primary-brand;
+  padding: ($base-spacing * 2) ($base-spacing * 6);
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  margin: ($base-spacing * 2) 0;
+
+  &:hover {
+    color: $primary-light;
+    background-color: $primary-brand;
+  }
+
+  &:focus {
+    color: $primary-light;
+    background: darken($primary-brand, 2%);
+  }
+}
