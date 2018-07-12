@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import ReactTable from 'react-table'
+import React from 'react';
+import ReactTable from 'react-table';
 import '../styles/vendor/react-table.scss';
 
 const data = [
@@ -155,16 +155,12 @@ const columns = [
   },
 ];
 
-export default class Table extends Component {
-  render() {
-    return (
-      <ReactTable
-        data={data}
-        columns={columns}
-        defaultPageSize={10}
-        className='-highlight table'
-        resizable={false}
-      />
-    )
-  }
-}
+export default () => (
+  <ReactTable
+    data={data}
+    columns={columns}
+    defaultPageSize={10}
+    className='-highlight table'
+    resizable={false}
+  />
+);

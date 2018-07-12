@@ -10,20 +10,20 @@ export const fetchMarketCapRequest = () => ({
   payload: {},
 });
 
-export const fetchMarketCapError = (error) => ({
+export const fetchMarketCapError = error => ({
   type: FETCH_MARKET_CAP_ERROR,
   payload: { error },
 });
 
-export const fetchMarketCapSuccess = (data) => ({
+export const fetchMarketCapSuccess = data => ({
   type: FETCH_MARKET_CAP_SUCCESS,
   payload: { data },
 });
 
-export const fetchMarketCap = () => (dispatch, getState) => {
+export const fetchMarketCap = () => (dispatch) => {
   dispatch(fetchMarketCapRequest());
 
   return getNetworkMarketCap()
-    .then((data) => dispatch(fetchMarketCapSuccess(data)))
-    .catch((err) => dispatch(fetchMarketCapError(err)));
+    .then(data => dispatch(fetchMarketCapSuccess(data)))
+    .catch(err => dispatch(fetchMarketCapError(err)));
 };

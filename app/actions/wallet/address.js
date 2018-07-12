@@ -10,20 +10,20 @@ export const fetchListAddressesRequest = () => ({
   payload: {},
 });
 
-export const fetchListAddressesError = (error) => ({
+export const fetchListAddressesError = error => ({
   type: FETCH_LIST_ADDRESSES_ERROR,
   payload: { error },
 });
 
-export const fetchListAddressesSuccess = (data) => ({
+export const fetchListAddressesSuccess = data => ({
   type: FETCH_LIST_ADDRESSES_SUCCESS,
   payload: { data },
 });
 
-export const fetchListAddresses = () => (dispatch, getState) => {
+export const fetchListAddresses = () => (dispatch) => {
   dispatch(fetchListAddressesRequest());
 
   return getListAddresses()
-    .then((data) => dispatch(fetchListAddressesSuccess(data)))
-    .catch((err) => dispatch(fetchListAddressesError(err)));
+    .then(data => dispatch(fetchListAddressesSuccess(data)))
+    .catch(err => dispatch(fetchListAddressesError(err)));
 };

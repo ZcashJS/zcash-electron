@@ -1,6 +1,12 @@
+// @flow
+
 import React from 'react';
 
-export default (props) => (
+type Props = {
+  value: any,
+};
+
+export default (props: Props) => (
   <div className='label'>
     {props.value}
   </div>

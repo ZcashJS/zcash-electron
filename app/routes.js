@@ -7,7 +7,7 @@ import Chart from './views/chart';
 import Dashboard from './containers/dashboard';
 import Send from './views/send';
 import Receive from './views/receive';
-import Transactions from './views/transactions';
+// import Transactions from './views/transactions';
 import Settings from './views/settings';
 import Status from './views/status';
 

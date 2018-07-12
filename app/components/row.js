@@ -1,13 +1,21 @@
+// @flow
+
 import React from 'react';
 import cx from 'classnames';
 
-const getClasses = (props) => cx(
-  'row',
-  { 'space-between': props.spaceBetween },
-);
+type Props = {
+  children: any,
+  spaceBetween: any,
+}
 
-export default (props) => (
-  <div className={getClasses(props)}>
-    {props.children}
-  </div>
-);
+export default (props: Props) => {
+  const classNames = cx('row', {
+    'space-between': props.spaceBetween,
+  });
+
+  return (
+    <div className={classNames}>
+      {props.children}
+    </div>
+  );
+};

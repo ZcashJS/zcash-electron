@@ -10,6 +10,7 @@ type Props = {
   dropdown: any,
   label: string,
   onChange: Function,
+  largeInput: any,
 }
 
 const getClasses = (props: Props) => cx(

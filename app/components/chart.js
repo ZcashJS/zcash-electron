@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import TradingViewWidget from 'react-tradingview-widget';
 
-export default (props) => (
+export default props => (
   <TradingViewWidget
     symbol='ZECUSD'
     locale='en'

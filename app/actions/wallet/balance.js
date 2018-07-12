@@ -10,20 +10,20 @@ export const fetchWalletBalanceRequest = () => ({
   payload: {},
 });
 
-export const fetchWalletBalanceError = (error) => ({
+export const fetchWalletBalanceError = error => ({
   type: FETCH_WALLET_BALANCE_ERROR,
   payload: { error },
 });
 
-export const fetchWalletBalanceSuccess = (data) => ({
+export const fetchWalletBalanceSuccess = data => ({
   type: FETCH_WALLET_BALANCE_SUCCESS,
   payload: { data },
 });
 
-export const fetchWalletBalance = () => (dispatch, getState) => {
+export const fetchWalletBalance = () => (dispatch) => {
   dispatch(fetchWalletBalanceRequest());
 
   return getWalletBalance()
-    .then((data) => dispatch(fetchWalletBalanceSuccess(data)))
-    .catch((err) => dispatch(fetchWalletBalanceError(err)));
+    .then(data => dispatch(fetchWalletBalanceSuccess(data)))
+    .catch(err => dispatch(fetchWalletBalanceError(err)));
 };

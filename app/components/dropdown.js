@@ -1,35 +1,37 @@
-import React, { Component } from 'react';
-import Select from 'react-select';
+// @flow
+
+import React, { PureComponent } from 'react';
+// import Select from 'react-select';
+// $FlowFixMe
 import '../styles/vendor/react-select.scss';
 
-const options = [
-  { value: 'one', label: 'One' },
-  { value: 'two', label: 'Two' },
-];
+// const options = [
+//   { value: 'one', label: 'One' },
+//   { value: 'two', label: 'Two' },
+// ];
 
-export default class Dropdown extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      selected: props.selected || '',
-      options: props.options || [],
-    };
+export default class Dropdown extends PureComponent<{}> {
+  // state = {
+  //   selected: {},
+  // };
+  componentDidMount() {
+    console.log('mounts'); // eslint-disable-line
   }
 
-  _handleChange = (selected) => this.setState({ selected });
+  // handleChange = (selected: Object) => this.setState({ selected });
 
   render() {
-    const { selected } = this.state;
+    // const { selected } = this.state;
 
     return (
       <div className='dropdown'>
-        <Select
+        {/* <Select
           name='dropdown__select'
           value={selected.value}
-          onChange={this._handleChange}
+          onChange={this.handleChange}
           options={options}
-        />
+        /> */}
+        dropdown
       </div>
     );
   }

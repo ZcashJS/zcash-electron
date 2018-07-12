@@ -13,6 +13,7 @@
     "bundle:analyze": "webpack-bundle-analyzer webpack-stats/stats.json",
     "analyze": "yarn bundle:profile:prepare && yarn bundle:profile && yarn bundle:analyze",
     "lint:precommit": "eslint ./app/",
+    "lint:fix": "eslint ./app/ --fix",
     "flow:precommit": "glow",
     "flow:coverage": "flow-coverage-report -t html -i 'app/**/*.js' -x 'dist/*.js' --threshold 70",
     "flow:report": "yarn flow:coverage && cd ./flow-coverage && open index.html",
@@ -81,5 +82,9 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
     "uuid": "^3.2.1"
-  }
+  },
+  "pre-commit": [
+    "lint:precommit",
+    "flow:precommit"
+  ]
 }

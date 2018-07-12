@@ -10,20 +10,20 @@ export const fetchNetworkHashRateRequest = () => ({
   payload: {},
 });
 
-export const fetchNetworkHashRateError = (error) => ({
+export const fetchNetworkHashRateError = error => ({
   type: FETCH_NETWORK_HASH_ERROR,
   payload: { error },
 });
 
-export const fetchNetworkHashRateSuccess = (data) => ({
+export const fetchNetworkHashRateSuccess = data => ({
   type: FETCH_NETWORK_HASH_SUCCESS,
   payload: { data },
 });
 
-export const fetchNetworkHashRate = () => (dispatch, getState) => {
+export const fetchNetworkHashRate = () => (dispatch) => {
   dispatch(fetchNetworkHashRateRequest());
 
   return getNetworkHashRate()
-    .then((data) => dispatch(fetchNetworkHashRateSuccess(data)))
-    .catch((err) => dispatch(fetchNetworkHashRateError(err)));
+    .then(data => dispatch(fetchNetworkHashRateSuccess(data)))
+    .catch(err => dispatch(fetchNetworkHashRateError(err)));
 };

@@ -1,10 +1,18 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// @flow
+
+import React, { PureComponent } from 'react';
+// import { Link } from 'react-router-dom';
 import Header from '../components/header';
 
-export default class Dashboard extends Component {
+type Props = {
+  fetchListAddresses: Function,
+  wallet: any,
+}
+
+export default class Dashboard extends PureComponent<Props> {
   componentDidMount() {
-    this.props.fetchListAddresses();
+    const { fetchListAddresses } = this.props;
+    fetchListAddresses();
   }
 
   render() {
@@ -16,7 +24,7 @@ export default class Dashboard extends Component {
         <b className='text-color'>All Available Addresses</b>
         <br />
         <br />
-        {addresses.map((addr) => (
+        {addresses.map(addr => (
           <div className='text-color'>{addr}</div>
         ))}
       </div>

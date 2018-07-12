@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Header from '../components/header';
 import QRCode from '../components/qrcode';
 import Input from '../components/input';
@@ -15,7 +14,7 @@ export default class Receive extends Component {
     notes: 0,
   };
 
-  _handleOnChange = (value, type) => this.setState({ [type]: value });
+  handleOnChange = (value, type) => this.setState({ [type]: value });
 
   render() {
     return (
@@ -25,10 +24,10 @@ export default class Receive extends Component {
           <Row>
             <Input
               label='Priority'
-              onChange={(evt) => this._handleOnChange(evt.target.value, 'priority')}
+              onChange={evt => this.handleOnChange(evt.target.value, 'priority')}
               dropdown
               multi={false}
-              placeholder={'Default'}
+              placeholder='Default'
             />
             <QRCode address='zcash addr here' />
           </Row>
@@ -36,14 +35,14 @@ export default class Receive extends Component {
             <Input
               label='From Account'
               largeInput
-              onChange={(evt) => this._handleOnChange(evt.target.value, 'fromAccount')}
+              onChange={evt => this.handleOnChange(evt.target.value, 'fromAccount')}
             />
           </Row>
           <Row>
             <Input
               label='Recipient Address'
               largeInput
-              onChange={(evt) => this._handleOnChange(evt.target.value, 'address')}
+              onChange={evt => this.handleOnChange(evt.target.value, 'address')}
             />
           </Row>
           <Row>
@@ -51,7 +50,7 @@ export default class Receive extends Component {
               label='Notes'
               textArea
               largeInput
-              onChange={(evt) => this._handleOnChange(evt.target.value, 'notes')}
+              onChange={evt => this.handleOnChange(evt.target.value, 'notes')}
             />
           </Row>
           <Button
@@ -60,7 +59,7 @@ export default class Receive extends Component {
           />
           <div style={{ color: '#fff' }}>
             <br />
-            {Object.keys(this.state).map((key) => (
+            {Object.keys(this.state).map(key => (
               <span key={Math.random()}>{key}: {this.state[key]}<br /></span>
             ))}
           </div>

@@ -1,9 +1,19 @@
-import React, { Component } from 'react';
+// @flow
+
+import React, { PureComponent } from 'react';
 import { NavLink } from 'react-router-dom';
-import { formatCurrency, abbreviateNumber } from '../utils/format';
+import { formatCurrency } from '../utils/format';
 import logo from '../assets/zcash-logo.png';
 
-export default class extends Component {
+type Props = {
+  network: any,
+  fetchBlockHeight: Function,
+  fetchNetworkHashRate: Function,
+  fetchMarketCap: Function,
+  fetchWalletBalance: Function,
+};
+
+export default class extends PureComponent<Props> {
   componentDidMount() {
     const {
       fetchBlockHeight,
@@ -18,30 +28,28 @@ export default class extends Component {
     fetchWalletBalance();
   }
 
-  _renderHeader = () => {
-    return (
-      <div className='sidebar__header'>
-        <div className='sidebar__header-content'>
-          <div className='sidebar__header-title'>
-            <img src={logo} />
-          </div>
-          <div className='sidebar__balance'>
-            <div className='sidebar__balance-label'>
+  renderHeader = () => (
+    <div className='sidebar__header'>
+      <div className='sidebar__header-content'>
+        <div className='sidebar__header-title'>
+          <img src={logo} alt='ZCash' />
+        </div>
+        <div className='sidebar__balance'>
+          <div className='sidebar__balance-label'>
               Total Balance
-              </div>
-            <div className='sidebar__balance-value'>
+          </div>
+          <div className='sidebar__balance-value'>
               232.57
-              </div>
-            <div className='sidebar__balance-sub-value'>
-              {formatCurrency(77789.12)}
-            </div>
+          </div>
+          <div className='sidebar__balance-sub-value'>
+            {formatCurrency(77789.12)}
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  )
 
-  _renderMenu = () => {
+  renderMenu = () => {
     const menuRoutes = [
       { route: '/', label: 'Dashboard' },
       { route: '/send', label: 'Send' },
@@ -54,7 +62,7 @@ export default class extends Component {
 
     return (
       <div className='sidebar__menu'>
-        {menuRoutes.map((item) => (
+        {menuRoutes.map(item => (
           <NavLink
             key={item.route}
             to={item.route}
@@ -69,7 +77,7 @@ export default class extends Component {
     );
   }
 
-  _renderInfo = () => {
+  renderInfo = () => {
     const { network } = this.props;
 
     return (
@@ -118,10 +126,10 @@ export default class extends Component {
   render() {
     return (
       <div className='sidebar'>
-        {this._renderHeader()}
-        {this._renderMenu()}
-        {this._renderInfo()}
+        {this.renderHeader()}
+        {this.renderMenu()}
+        {this.renderInfo()}
       </div>
-    )
+    );
   }
 }

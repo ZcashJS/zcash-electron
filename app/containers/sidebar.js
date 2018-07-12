@@ -6,12 +6,12 @@ import { fetchNetworkHashRate } from '../actions/network-info/hash-rate';
 import { fetchMarketCap } from '../actions/network-info/market-cap';
 import { fetchWalletBalance } from '../actions/wallet/balance';
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   network: state.network,
   wallet: state.wallet,
 });
 
-const mapDispatchToProps = (dispatch) => ({
+const mapDispatchToProps = dispatch => ({
   fetchBlockHeight: () => dispatch(fetchBlockHeight()),
   fetchNetworkHashRate: () => dispatch(fetchNetworkHashRate()),
   fetchMarketCap: () => dispatch(fetchMarketCap()),

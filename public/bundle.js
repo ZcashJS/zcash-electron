@@ -669,7 +669,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 	'use strict';
 
@@ -878,7 +878,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	function makeEmptyFunction(arg) {
@@ -917,7 +917,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -1289,7 +1289,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -1748,7 +1748,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -1779,7 +1779,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -1980,7 +1980,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -2023,7 +2023,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -2514,7 +2514,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -2986,7 +2986,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -3014,7 +3014,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -5048,7 +5048,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 	'use strict';
 
@@ -6285,7 +6285,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -6770,7 +6770,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -6851,7 +6851,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -6912,7 +6912,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -7080,7 +7080,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -8149,7 +8149,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -8271,7 +8271,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -8464,7 +8464,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -8555,7 +8555,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -8651,7 +8651,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -8678,7 +8678,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -9042,7 +9042,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -9082,7 +9082,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -9179,7 +9179,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -9634,7 +9634,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -13054,7 +13054,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 * @typechecks static-only
 	 */
 
@@ -14246,7 +14246,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -15205,7 +15205,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -16491,7 +16491,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -16624,7 +16624,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -16653,7 +16653,7 @@
 	 * LICENSE file in the root directory of this source tree.
 	 *
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	/*eslint-disable no-self-compare */
@@ -16869,7 +16869,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -16892,7 +16892,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -17132,7 +17132,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -17154,7 +17154,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -17197,7 +17197,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -17369,7 +17369,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -19470,7 +19470,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	var isTextNode = __webpack_require__(156);
@@ -20099,7 +20099,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -21528,7 +21528,7 @@
 	 * This source code is licensed under the MIT license found in the
 	 * LICENSE file in the root directory of this source tree.
 	 *
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -22553,7 +22553,7 @@
 	    (global.hoistNonReactStatics = factory());
 	}(this, (function () {
 	    'use strict';
-	    
+
 	    var REACT_STATICS = {
 	        childContextTypes: true,
 	        contextTypes: true,
@@ -22565,7 +22565,7 @@
 	        propTypes: true,
 	        type: true
 	    };
-	    
+
 	    var KNOWN_STATICS = {
 	        name: true,
 	        length: true,
@@ -22575,30 +22575,30 @@
 	        arguments: true,
 	        arity: true
 	    };
-	    
+
 	    var defineProperty = Object.defineProperty;
 	    var getOwnPropertyNames = Object.getOwnPropertyNames;
 	    var getOwnPropertySymbols = Object.getOwnPropertySymbols;
 	    var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
 	    var getPrototypeOf = Object.getPrototypeOf;
 	    var objectPrototype = getPrototypeOf && getPrototypeOf(Object);
-	    
+
 	    return function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 	        if (typeof sourceComponent !== 'string') { // don't hoist over string (html) components
-	            
+
 	            if (objectPrototype) {
 	                var inheritedComponent = getPrototypeOf(sourceComponent);
 	                if (inheritedComponent && inheritedComponent !== objectPrototype) {
 	                    hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
 	                }
 	            }
-	            
+
 	            var keys = getOwnPropertyNames(sourceComponent);
-	            
+
 	            if (getOwnPropertySymbols) {
 	                keys = keys.concat(getOwnPropertySymbols(sourceComponent));
 	            }
-	            
+
 	            for (var i = 0; i < keys.length; ++i) {
 	                var key = keys[i];
 	                if (!REACT_STATICS[key] && !KNOWN_STATICS[key] && (!blacklist || !blacklist[key])) {
@@ -22608,10 +22608,10 @@
 	                    } catch (e) {}
 	                }
 	            }
-	            
+
 	            return targetComponent;
 	        }
-	        
+
 	        return targetComponent;
 	    };
 	})));
@@ -22819,7 +22819,7 @@
 	  selectorFactory, which has the signature:
 
 	    (dispatch, options) => (nextState, nextOwnProps) => nextFinalProps
-	  
+
 	  connect passes its args to connectAdvanced as options, which will in turn pass them to
 	  selectorFactory each time a Connect component instance is instantiated or hot reloaded.
 
@@ -24035,7 +24035,7 @@
 	// dependsOnOwnProps is used by createMapToPropsProxy to determine whether to pass props as args
 	// to the mapToProps function being wrapped. It is also used by makePurePropsSelector to determine
 	// whether mapToProps needs to be invoked when props have changed.
-	// 
+	//
 	// A length of one signals that mapToProps does not depend on props from the parent component.
 	// A length of zero is assumed to mean mapToProps is getting args via arguments or ...args and
 	// therefore not reporting its length accurately..
@@ -24045,16 +24045,16 @@
 
 	// Used by whenMapStateToPropsIsFunction and whenMapDispatchToPropsIsFunction,
 	// this function wraps mapToProps in a proxy function which does several things:
-	// 
+	//
 	//  * Detects whether the mapToProps function being called depends on props, which
 	//    is used by selectorFactory to decide if it should reinvoke on props changes.
-	//    
+	//
 	//  * On first call, handles mapToProps if returns another function, and treats that
 	//    new function as the true mapToProps for subsequent calls.
-	//    
+	//
 	//  * On first call, verifies the first result is a plain object, in order to warn
 	//    the developer that their mapToProps function is not returning a valid result.
-	//    
+	//
 	function wrapMapToPropsFunc(mapToProps, methodName) {
 	  return function initProxySelector(dispatch, _ref) {
 	    var displayName = _ref.displayName;
@@ -31159,7 +31159,7 @@
 			self.url = response.url
 			self.statusCode = response.status
 			self.statusMessage = response.statusText
-			
+
 			response.headers.forEach(function (header, key){
 				self.headers[key.toLowerCase()] = header
 				self.rawHeaders.push(key, header)
@@ -31282,7 +31282,7 @@
 					self.push(new Buffer(response))
 					break
 				}
-				// Falls through in IE8	
+				// Falls through in IE8
 			case 'text':
 				try { // This will fail when readyState = 3 in IE9. Switch mode and wait for readyState = 4
 					response = xhr.responseText
@@ -37085,7 +37085,7 @@
 	      priority: 0,
 	      address: 0,
 	      notes: 0
-	    }, _this._handleOnChange = function (value, type) {
+	    }, _this.handleOnChange = function (value, type) {
 	      return _this.setState(_defineProperty({}, type, value));
 	    }, _temp), _possibleConstructorReturn(_this, _ret);
 	  }
@@ -37108,14 +37108,14 @@
 	            _react2.default.createElement(_input2.default, {
 	              label: 'Amount',
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'amount');
+	                return _this2.handleOnChange(evt.target.value, 'amount');
 	              },
 	              placeholder: '99999 ZEC'
 	            }),
 	            _react2.default.createElement(_input2.default, {
 	              label: 'Priority',
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'priority');
+	                return _this2.handleOnChange(evt.target.value, 'priority');
 	              },
 	              dropdown: true,
 	              multi: false,
@@ -37129,7 +37129,7 @@
 	              label: 'From Account',
 	              largeInput: true,
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'fromAccount');
+	                return _this2.handleOnChange(evt.target.value, 'fromAccount');
 	              }
 	            })
 	          ),
@@ -37140,7 +37140,7 @@
 	              label: 'Recipient Address',
 	              largeInput: true,
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'address');
+	                return _this2.handleOnChange(evt.target.value, 'address');
 	              }
 	            })
 	          ),
@@ -37152,7 +37152,7 @@
 	              textArea: true,
 	              largeInput: true,
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'notes');
+	                return _this2.handleOnChange(evt.target.value, 'notes');
 	              }
 	            })
 	          ),
@@ -40998,7 +40998,7 @@
 /* 348 */
 /***/ (function(module, exports) {
 
-	
+
 	/**
 	 * When source maps are enabled, `style-loader` uses a link element with a data-uri to
 	 * embed the css on the page. This breaks all relative urls because now they are relative to a
@@ -42766,7 +42766,7 @@
 	      priority: 0,
 	      address: 0,
 	      notes: 0
-	    }, _this._handleOnChange = function (value, type) {
+	    }, _this.handleOnChange = function (value, type) {
 	      return _this.setState(_defineProperty({}, type, value));
 	    }, _temp), _possibleConstructorReturn(_this, _ret);
 	  }
@@ -42789,7 +42789,7 @@
 	            _react2.default.createElement(_input2.default, {
 	              label: 'Priority',
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'priority');
+	                return _this2.handleOnChange(evt.target.value, 'priority');
 	              },
 	              dropdown: true,
 	              multi: false,
@@ -42804,7 +42804,7 @@
 	              label: 'From Account',
 	              largeInput: true,
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'fromAccount');
+	                return _this2.handleOnChange(evt.target.value, 'fromAccount');
 	              }
 	            })
 	          ),
@@ -42815,7 +42815,7 @@
 	              label: 'Recipient Address',
 	              largeInput: true,
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'address');
+	                return _this2.handleOnChange(evt.target.value, 'address');
 	              }
 	            })
 	          ),
@@ -42827,7 +42827,7 @@
 	              textArea: true,
 	              largeInput: true,
 	              onChange: function onChange(evt) {
-	                return _this2._handleOnChange(evt.target.value, 'notes');
+	                return _this2.handleOnChange(evt.target.value, 'notes');
 	              }
 	            })
 	          ),
@@ -43310,14 +43310,14 @@
 	};
 
 	proto.makeImpl = function(test, maskPattern) {
-		
+
 		this.moduleCount = this.typeNumber * 4 + 17;
 		this.modules = new Array(this.moduleCount);
-		
+
 		for (var row = 0; row < this.moduleCount; row++) {
-			
+
 			this.modules[row] = new Array(this.moduleCount);
-			
+
 			for (var col = 0; col < this.moduleCount; col++) {
 				this.modules[row][col] = null;//(col + row) % 3;
 			}
@@ -43329,7 +43329,7 @@
 		this.setupPositionAdjustPattern();
 		this.setupTimingPattern();
 		this.setupTypeInfo(test, maskPattern);
-		
+
 		if (this.typeNumber >= 7) {
 			this.setupTypeNumber(test);
 		}
@@ -43342,15 +43342,15 @@
 	};
 
 	proto.setupPositionProbePattern = function(row, col)  {
-		
+
 		for (var r = -1; r <= 7; r++) {
-			
+
 			if (row + r <= -1 || this.moduleCount <= row + r) continue;
-			
+
 			for (var c = -1; c <= 7; c++) {
-				
+
 				if (col + c <= -1 || this.moduleCount <= col + c) continue;
-				
+
 				if ( (0 <= r && r <= 6 && (c == 0 || c == 6) )
 						|| (0 <= c && c <= 6 && (r == 0 || r == 6) )
 						|| (2 <= r && r <= 4 && 2 <= c && c <= 4) ) {
@@ -43358,8 +43358,8 @@
 				} else {
 					this.modules[row + r][col + c] = false;
 				}
-			}		
-		}		
+			}
+		}
 	};
 
 	proto.getBestMaskPattern = function() {
@@ -43368,7 +43368,7 @@
 		var pattern = 0;
 
 		for (var i = 0; i < 8; i++) {
-			
+
 			this.makeImpl(true, i);
 
 			var lostPoint = util.getLostPoint(this);
@@ -43390,14 +43390,14 @@
 		this.make();
 
 		for (var row = 0; row < this.modules.length; row++) {
-			
+
 			var y = row * cs;
-			
+
 			for (var col = 0; col < this.modules[row].length; col++) {
 
 				var x = col * cs;
 				var dark = this.modules[row][col];
-			
+
 				if (dark) {
 					qr_mc.beginFill(0, 100);
 					qr_mc.moveTo(x, y);
@@ -43408,12 +43408,12 @@
 				}
 			}
 		}
-		
+
 		return qr_mc;
 	};
 
 	proto.setupTimingPattern = function() {
-		
+
 		for (var r = 8; r < this.moduleCount - 8; r++) {
 			if (this.modules[r][6] != null) {
 				continue;
@@ -43432,22 +43432,22 @@
 	proto.setupPositionAdjustPattern = function() {
 
 		var pos = util.getPatternPosition(this.typeNumber);
-		
+
 		for (var i = 0; i < pos.length; i++) {
-		
+
 			for (var j = 0; j < pos.length; j++) {
-			
+
 				var row = pos[i];
 				var col = pos[j];
-				
+
 				if (this.modules[row][col] != null) {
 					continue;
 				}
-				
+
 				for (var r = -2; r <= 2; r++) {
-				
+
 					for (var c = -2; c <= 2; c++) {
-					
+
 						if (r == -2 || r == 2 || c == -2 || c == 2
 								|| (r == 0 && c == 0) ) {
 							this.modules[row + r][col + c] = true;
@@ -43480,7 +43480,7 @@
 		var data = (this.errorCorrectLevel << 3) | maskPattern;
 		var bits = util.getBCHTypeInfo(data);
 
-		// vertical		
+		// vertical
 		for (var i = 0; i < 15; i++) {
 
 			var mod = (!test && ( (bits >> i) & 1) == 1);
@@ -43498,7 +43498,7 @@
 		for (var i = 0; i < 15; i++) {
 
 			var mod = (!test && ( (bits >> i) & 1) == 1);
-			
+
 			if (i < 8) {
 				this.modules[8][this.moduleCount - i - 1] = mod;
 			} else if (i < 9) {
@@ -43513,12 +43513,12 @@
 	};
 
 	proto.mapData = function(data, maskPattern) {
-		
+
 		var inc = -1;
 		var row = this.moduleCount - 1;
 		var bitIndex = 7;
 		var byteIndex = 0;
-		
+
 		for (var col = this.moduleCount - 1; col > 0; col -= 2) {
 
 			if (col == 6) col--;
@@ -43526,9 +43526,9 @@
 			while (true) {
 
 				for (var c = 0; c < 2; c++) {
-					
+
 					if (this.modules[row][col - c] == null) {
-						
+
 						var dark = false;
 
 						if (byteIndex < data.length) {
@@ -43540,7 +43540,7 @@
 						if (mask) {
 							dark = !dark;
 						}
-						
+
 						this.modules[row][col - c] = dark;
 						bitIndex--;
 
@@ -43550,7 +43550,7 @@
 						}
 					}
 				}
-								
+
 				row += inc;
 
 				if (row < 0 || this.moduleCount <= row) {
@@ -43566,11 +43566,11 @@
 	QRCode.PAD1 = 0x11;
 
 	QRCode.createData = function(typeNumber, errorCorrectLevel, dataList) {
-		
+
 		var rsBlocks = RSBlock.getRSBlocks(typeNumber, errorCorrectLevel);
-		
+
 		var buffer = new BitBuffer();
-		
+
 		for (var i = 0; i < dataList.length; i++) {
 			var data = dataList[i];
 			buffer.put(data.mode, 4);
@@ -43604,12 +43604,12 @@
 
 		// padding
 		while (true) {
-			
+
 			if (buffer.getLengthInBits() >= totalDataCount * 8) {
 				break;
 			}
 			buffer.put(QRCode.PAD0, 8);
-			
+
 			if (buffer.getLengthInBits() >= totalDataCount * 8) {
 				break;
 			}
@@ -43622,13 +43622,13 @@
 	QRCode.createBytes = function(buffer, rsBlocks) {
 
 		var offset = 0;
-		
+
 		var maxDcCount = 0;
 		var maxEcCount = 0;
-		
+
 		var dcdata = new Array(rsBlocks.length);
 		var ecdata = new Array(rsBlocks.length);
-		
+
 		for (var r = 0; r < rsBlocks.length; r++) {
 
 			var dcCount = rsBlocks[r].dataCount;
@@ -43636,14 +43636,14 @@
 
 			maxDcCount = Math.max(maxDcCount, dcCount);
 			maxEcCount = Math.max(maxEcCount, ecCount);
-			
+
 			dcdata[r] = new Array(dcCount);
-			
+
 			for (var i = 0; i < dcdata[r].length; i++) {
 				dcdata[r][i] = 0xff & buffer.buffer[i + offset];
 			}
 			offset += dcCount;
-			
+
 			var rsPoly = util.getErrorCorrectPolynomial(ecCount);
 			var rawPoly = new Polynomial(dcdata[r], rsPoly.getLength() - 1);
 
@@ -43655,7 +43655,7 @@
 			}
 
 		}
-		
+
 		var totalCodeCount = 0;
 		for (var i = 0; i < rsBlocks.length; i++) {
 			totalCodeCount += rsBlocks[i].totalCount;
@@ -43703,7 +43703,7 @@
 		getLength : function(buffer) {
 			return this.data.length;
 		},
-		
+
 		write : function(buffer) {
 			for (var i = 0; i < this.data.length; i++) {
 				// not JIS ...
@@ -43752,7 +43752,7 @@
 		[1, 26, 16],
 		[1, 26, 13],
 		[1, 26, 9],
-		
+
 		// 2
 		[1, 44, 34],
 		[1, 44, 28],
@@ -43765,43 +43765,43 @@
 		[2, 35, 17],
 		[2, 35, 13],
 
-		// 4		
+		// 4
 		[1, 100, 80],
 		[2, 50, 32],
 		[2, 50, 24],
 		[4, 25, 9],
-		
+
 		// 5
 		[1, 134, 108],
 		[2, 67, 43],
 		[2, 33, 15, 2, 34, 16],
 		[2, 33, 11, 2, 34, 12],
-		
+
 		// 6
 		[2, 86, 68],
 		[4, 43, 27],
 		[4, 43, 19],
 		[4, 43, 15],
-		
-		// 7		
+
+		// 7
 		[2, 98, 78],
 		[4, 49, 31],
 		[2, 32, 14, 4, 33, 15],
 		[4, 39, 13, 1, 40, 14],
-		
+
 		// 8
 		[2, 121, 97],
 		[2, 60, 38, 2, 61, 39],
 		[4, 40, 18, 2, 41, 19],
 		[4, 40, 14, 2, 41, 15],
-		
+
 		// 9
 		[2, 146, 116],
 		[3, 58, 36, 2, 59, 37],
 		[4, 36, 16, 4, 37, 17],
 		[4, 36, 12, 4, 37, 13],
-		
-		// 10		
+
+		// 10
 		[2, 86, 68, 2, 87, 69],
 		[4, 69, 43, 1, 70, 44],
 		[6, 43, 19, 2, 44, 20],
@@ -43989,17 +43989,17 @@
 	];
 
 	QRRSBlock.getRSBlocks = function(typeNumber, errorCorrectLevel) {
-		
+
 		var rsBlock = QRRSBlock.getRsBlockTable(typeNumber, errorCorrectLevel);
-		
+
 		if (rsBlock == undefined) {
 			throw new Error("bad rs block @ typeNumber:" + typeNumber + "/errorCorrectLevel:" + errorCorrectLevel);
 		}
 
 		var length = rsBlock.length / 3;
-		
+
 		var list = new Array();
-		
+
 		for (var i = 0; i < length; i++) {
 
 			var count = rsBlock[i * 3 + 0];
@@ -44007,10 +44007,10 @@
 			var dataCount  = rsBlock[i * 3 + 2];
 
 			for (var j = 0; j < count; j++) {
-				list.push(new QRRSBlock(totalCount, dataCount) );	
+				list.push(new QRRSBlock(totalCount, dataCount) );
 			}
 		}
-		
+
 		return list;
 	}
 
@@ -44061,28 +44061,28 @@
 			var bufIndex = Math.floor(index / 8);
 			return ( (this.buffer[bufIndex] >>> (7 - index % 8) ) & 1) == 1;
 		},
-		
+
 		put : function(num, length) {
 			for (var i = 0; i < length; i++) {
 				this.putBit( ( (num >>> (length - i - 1) ) & 1) == 1);
 			}
 		},
-		
+
 		getLengthInBits : function() {
 			return this.length;
 		},
-		
+
 		putBit : function(bit) {
-		
+
 			var bufIndex = Math.floor(this.length / 8);
 			if (this.buffer.length <= bufIndex) {
 				this.buffer.push(0);
 			}
-		
+
 			if (bit) {
 				this.buffer[bufIndex] |= (0x80 >>> (this.length % 8) );
 			}
-		
+
 			this.length++;
 		}
 	};
@@ -44122,7 +44122,7 @@
 		    [6, 24, 42],
 		    [6, 26, 46],
 		    [6, 28, 50],
-		    [6, 30, 54],		
+		    [6, 30, 54],
 		    [6, 32, 58],
 		    [6, 34, 62],
 		    [6, 26, 46, 66],
@@ -44161,7 +44161,7 @@
 	    getBCHTypeInfo : function(data) {
 		    var d = data << 10;
 		    while (QRUtil.getBCHDigit(d) - QRUtil.getBCHDigit(QRUtil.G15) >= 0) {
-			    d ^= (QRUtil.G15 << (QRUtil.getBCHDigit(d) - QRUtil.getBCHDigit(QRUtil.G15) ) ); 	
+			    d ^= (QRUtil.G15 << (QRUtil.getBCHDigit(d) - QRUtil.getBCHDigit(QRUtil.G15) ) );
 		    }
 		    return ( (data << 10) | d) ^ QRUtil.G15_MASK;
 	    },
@@ -44169,7 +44169,7 @@
 	    getBCHTypeNumber : function(data) {
 		    var d = data << 12;
 		    while (QRUtil.getBCHDigit(d) - QRUtil.getBCHDigit(QRUtil.G18) >= 0) {
-			    d ^= (QRUtil.G18 << (QRUtil.getBCHDigit(d) - QRUtil.getBCHDigit(QRUtil.G18) ) ); 	
+			    d ^= (QRUtil.G18 << (QRUtil.getBCHDigit(d) - QRUtil.getBCHDigit(QRUtil.G18) ) );
 		    }
 		    return (data << 12) | d;
 	    },
@@ -44191,9 +44191,9 @@
 	    },
 
 	    getMask : function(maskPattern, i, j) {
-		    
+
 		    switch (maskPattern) {
-			    
+
 		    case QRMaskPattern.PATTERN000 : return (i + j) % 2 == 0;
 		    case QRMaskPattern.PATTERN001 : return i % 2 == 0;
 		    case QRMaskPattern.PATTERN010 : return j % 3 == 0;
@@ -44266,13 +44266,13 @@
 	    },
 
 	    getLostPoint : function(qrCode) {
-		    
+
 		    var moduleCount = qrCode.getModuleCount();
-		    
+
 		    var lostPoint = 0;
-		    
+
 		    // LEVEL1
-		    
+
 		    for (var row = 0; row < moduleCount; row++) {
 
 			    for (var col = 0; col < moduleCount; col++) {
@@ -44354,7 +44354,7 @@
 		    }
 
 		    // LEVEL4
-		    
+
 		    var darkCount = 0;
 
 		    for (var col = 0; col < moduleCount; col++) {
@@ -44364,11 +44364,11 @@
 				    }
 			    }
 		    }
-		    
+
 		    var ratio = Math.abs(100 * darkCount / moduleCount / moduleCount - 50) / 5;
 		    lostPoint += ratio * 10;
 
-		    return lostPoint;		
+		    return lostPoint;
 	    }
 	};
 
@@ -44404,42 +44404,42 @@
 		get : function(index) {
 			return this.num[index];
 		},
-		
+
 		getLength : function() {
 			return this.num.length;
 		},
-		
+
 		multiply : function(e) {
-		
+
 			var num = new Array(this.getLength() + e.getLength() - 1);
-		
+
 			for (var i = 0; i < this.getLength(); i++) {
 				for (var j = 0; j < e.getLength(); j++) {
 					num[i + j] ^= math.gexp(math.glog(this.get(i) ) + math.glog(e.get(j) ) );
 				}
 			}
-		
+
 			return new QRPolynomial(num, 0);
 		},
-		
+
 		mod : function(e) {
-		
+
 			if (this.getLength() - e.getLength() < 0) {
 				return this;
 			}
-		
+
 			var ratio = math.glog(this.get(0) ) - math.glog(e.get(0) );
-		
+
 			var num = new Array(this.getLength() );
-			
+
 			for (var i = 0; i < this.getLength(); i++) {
 				num[i] = this.get(i);
 			}
-			
+
 			for (var i = 0; i < e.getLength(); i++) {
 				num[i] ^= math.gexp(math.glog(e.get(i) ) + ratio);
 			}
-		
+
 			// recursive call
 			return new QRPolynomial(num, 0).mod(e);
 		}
@@ -44455,33 +44455,33 @@
 	var QRMath = {
 
 		glog : function(n) {
-		
+
 			if (n < 1) {
 				throw new Error("glog(" + n + ")");
 			}
-			
+
 			return QRMath.LOG_TABLE[n];
 		},
-		
+
 		gexp : function(n) {
-		
+
 			while (n < 0) {
 				n += 255;
 			}
-		
+
 			while (n >= 256) {
 				n -= 255;
 			}
-		
+
 			return QRMath.EXP_TABLE[n];
 		},
-		
+
 		EXP_TABLE : new Array(256),
-		
+
 		LOG_TABLE : new Array(256)
 
 	};
-		
+
 	for (var i = 0; i < 8; i++) {
 		QRMath.EXP_TABLE[i] = 1 << i;
 	}
