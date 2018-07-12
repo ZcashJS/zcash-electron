@@ -1,14 +1,23 @@
+// @flow
+
 import React from 'react';
 import cx from 'classnames';
-import omit from 'lodash.omit';
+import omit from 'lodash';
 import Dropdown from './dropdown';
 
-const getClasses = (props) => cx(
+type Props = {
+  textArea: string,
+  dropdown: any,
+  label: string,
+  onChange: Function,
+}
+
+const getClasses = (props: Props) => cx(
   'input-wrapper',
   { 'input-wrapper--large-input': props.largeInput },
 );
 
-export default (props) => {
+export default (props: Props) => {
   if (props.textArea) {
     return (
       <div className={getClasses(props)}>
@@ -36,7 +45,7 @@ export default (props) => {
           {...omit(props, 'largeInput', 'textArea', 'dropdown')}
         />
       </div>
-    )
+    );
   }
 
   return (
@@ -52,4 +61,4 @@ export default (props) => {
       />
     </div>
   );
-}
+};

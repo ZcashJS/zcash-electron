@@ -1,0 +1,12 @@
+[ignore]
+.*/flow-coverage/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
