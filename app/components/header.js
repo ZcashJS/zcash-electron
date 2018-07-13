@@ -3,13 +3,24 @@
 import React from 'react';
 
 type Props = {
-  title: string,
+  routing: Object,
 };
 
-export default (props: Props) => (
-  <div className='header'>
-    <div className='header__title'>
-      {props.title}
+export default (props: Props) => {
+  const { routing: { location: { pathname } } } = props;
+
+  // const getTitle = () => {
+  //   if (pathname === '/') {
+  //     return 'Dashboard';
+  //   }
+  //   return pathname;
+  // };
+
+  return (
+    <div className='header'>
+      <div className='header__title'>
+        Dashboard
+      </div>
     </div>
-  </div>
-);
+  );
+};

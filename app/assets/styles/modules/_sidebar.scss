@@ -1,5 +1,9 @@
 .sidebar {
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: $sidebar-width;
 
   &__header {
     padding: 2rem 1rem 1rem 1rem;

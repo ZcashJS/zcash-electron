@@ -3,7 +3,7 @@
 import React, { PureComponent } from 'react';
 // import Select from 'react-select';
 // $FlowFixMe
-import '../styles/vendor/react-select.scss';
+import '../assets/styles/vendor/react-select.scss';
 
 // const options = [
 //   { value: 'one', label: 'One' },

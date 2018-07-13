@@ -3,7 +3,7 @@
 import React, { PureComponent } from 'react';
 import { NavLink } from 'react-router-dom';
 import { formatCurrency } from '../utils/format';
-import logo from '../assets/zcash-logo.png';
+import logo from '../assets/images/zcash-logo.png';
 
 type Props = {
   network: any,

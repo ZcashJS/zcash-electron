@@ -1,0 +1,41 @@
+// Defaults
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  background: $primary-dark;
+}
+
+body {
+  font-family: $primary-font-family, 'Helvetica', serif;
+  font-weight: $font-regular;
+  color: $primary-light;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.zcash {
+  position: relative;
+  min-height: 100%;
+
+  &__header {
+    height: $header-height;
+    margin-left: $sidebar-width;
+  }
+
+  &__body {
+    height: 100%;
+    margin-left: $sidebar-width;
+  }
+}
