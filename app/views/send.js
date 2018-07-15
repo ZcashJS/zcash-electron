@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
 import Button from '../components/button';
-// import Dropdown from '../components/dropdown';
-import Header from '../components/header';
 import Input from '../components/input';
 import Row from '../components/row';
 
@@ -19,8 +16,7 @@ export default class Send extends Component {
 
   render() {
     return (
-      <div className='main'>
-        <Header title='Send Zcash' />
+      <div className='main-container'>
         <div className='form'>
           <Row>
             <Input

@@ -10,8 +10,15 @@ import SendView from '../views/send';
 import ReceiveView from '../views/receive';
 import SettingsView from '../views/settings';
 import StatusView from '../views/status';
-
 import ScrollTop from '../utils/scroll-top';
+import {
+  DASHBOARD_ROUTE,
+  SEND_ROUTE,
+  RECEIVE_ROUTE,
+  SETTINGS_ROUTE,
+  CHART_ROUTE,
+  API_ROUTE,
+} from '../constants/routes';
 
 export default () => (
   <div className='zcash'>
@@ -24,27 +31,27 @@ export default () => (
         <Switch>
           <Route
             exact
-            path='/'
+            path={DASHBOARD_ROUTE}
             component={DashboardContainer}
           />
           <Route
-            path='/send'
+            path={SEND_ROUTE}
             component={SendView}
           />
           <Route
-            path='/receive'
+            path={RECEIVE_ROUTE}
             component={ReceiveView}
           />
           <Route
-            path='/chart'
+            path={CHART_ROUTE}
             component={ChartView}
           />
           <Route
-            path='/settings'
+            path={SETTINGS_ROUTE}
             component={SettingsView}
           />
           <Route
-            path='/status'
+            path={API_ROUTE}
             component={StatusView}
           />
         </Switch>

@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
-import Header from '../components/header';
 import methods from '../lib/methods';
 import Zcash from '../lib/zcash';
 
@@ -25,8 +23,7 @@ export default class Status extends Component {
     };
 
     return (
-      <div className='main'>
-        <Header title='Status' />
+      <div className='main-container'>
         {methods.map(method => (
           <button
             key={Math.random()}

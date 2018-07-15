@@ -1,25 +1,19 @@
 // @flow
 
 import React from 'react';
+import { getPageTitle } from '../utils/title';
 
 type Props = {
-  routing: Object,
+  location: Object,
 };
 
 export default (props: Props) => {
-  const { routing: { location: { pathname } } } = props;
-
-  // const getTitle = () => {
-  //   if (pathname === '/') {
-  //     return 'Dashboard';
-  //   }
-  //   return pathname;
-  // };
+  const { location: { pathname } } = props;
 
   return (
     <div className='header'>
       <div className='header__title'>
-        Dashboard
+        {getPageTitle(pathname)}
       </div>
     </div>
   );

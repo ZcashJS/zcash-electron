@@ -1,15 +1,9 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import Header from '../components/header';
 import Label from '../components/label';
-// import Row from '../components/row';
 import Button from '../components/button';
 
 export default () => (
-  <div className='main'>
-    <Header
-      title='Settings'
-    />
+  <div className='main-container'>
     <div className='main__scroller'>
       <Label value='Wallet' />
       <div className='text-color'>

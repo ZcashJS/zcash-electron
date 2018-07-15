@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../components/header';
 import QRCode from '../components/qrcode';
 import Input from '../components/input';
 import Button from '../components/button';
@@ -18,8 +17,7 @@ export default class Receive extends Component {
 
   render() {
     return (
-      <div className='main'>
-        <Header title='Receive Zcash' />
+      <div className='main-container'>
         <div className='form'>
           <Row>
             <Input

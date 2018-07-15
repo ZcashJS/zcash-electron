@@ -4,6 +4,14 @@ import React, { PureComponent } from 'react';
 import { NavLink } from 'react-router-dom';
 import { formatCurrency } from '../utils/format';
 import logo from '../assets/images/zcash-logo.png';
+import {
+  DASHBOARD_ROUTE,
+  SEND_ROUTE,
+  RECEIVE_ROUTE,
+  SETTINGS_ROUTE,
+  CHART_ROUTE,
+  API_ROUTE,
+} from '../constants/routes';
 
 type Props = {
   network: any,
@@ -51,13 +59,12 @@ export default class extends PureComponent<Props> {
 
   renderMenu = () => {
     const menuRoutes = [
-      { route: '/', label: 'Dashboard' },
-      { route: '/send', label: 'Send' },
-      { route: '/receive', label: 'Receive' },
-      // { route: '/transactions', label: 'Transactions' },
-      { route: '/chart', label: 'Chart' },
-      { route: '/settings', label: 'Settings' },
-      { route: '/status', label: 'ZCash API Test' },
+      { route: DASHBOARD_ROUTE, label: 'Dashboard' },
+      { route: SEND_ROUTE, label: 'Send' },
+      { route: RECEIVE_ROUTE, label: 'Receive' },
+      { route: CHART_ROUTE, label: 'Chart' },
+      { route: SETTINGS_ROUTE, label: 'Settings' },
+      { route: API_ROUTE, label: 'API Test' },
     ];
 
     return (
