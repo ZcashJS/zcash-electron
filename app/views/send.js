@@ -54,10 +54,12 @@ export default class Send extends Component {
               onChange={evt => this.handleOnChange(evt.target.value, 'notes')}
             />
           </Row>
-          <Button
-            title='Send'
-            onClick={() => {}}
-          />
+          <Row>
+            <Button
+              title='Send'
+              onClick={() => {}}
+            />
+          </Row>
         </div>
         <div style={{ color: '#fff' }}>
           <br />

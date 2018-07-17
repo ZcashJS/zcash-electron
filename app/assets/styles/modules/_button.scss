@@ -5,20 +5,20 @@
   border-radius: $border-radius;
   font-size: 14px;
   font-weight: 700;
-  color: $primary-brand;
-  padding: ($base-spacing * 2) ($base-spacing * 6);
+  color: $primary-light;
+  background-color: $primary-brand;
+  padding: 15px 35px;
   outline: 0;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
-  margin: ($base-spacing * 2) 0;
 
   &:hover {
     color: $primary-light;
-    background-color: $primary-brand;
+    background: darken($primary-brand, 10%);
   }
 
   &:focus {
     color: $primary-light;
-    background: darken($primary-brand, 2%);
+    background: darken($primary-brand, 5%);
   }
 }

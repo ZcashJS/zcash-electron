@@ -1,10 +1,10 @@
 import Zcash from '../lib/zcash';
 
 const CMC_API = 'https://api.coinmarketcap.com/v1/ticker/zcash/';
-export const zcash = Zcash.connect(
-  'hrofuzcash',
-  '938b35d716ff453a87bfabf24bee3513',
-);
+export const zcash = Zcash.connect({
+  rpcuser: 'hrofu',
+  rpcpassword: 'testing123456',
+});
 
 // Network Info
 export const getNetworkBlockHeight = () => zcash.getblockcount();

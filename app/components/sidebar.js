@@ -89,10 +89,10 @@ export default class extends PureComponent<Props> {
 
     return (
       <div className='sidebar__info'>
+        <div className='sidebar__info-title'>
+          Zcash Network
+        </div>
         <div className='sidebar__info-content'>
-          <div className='sidebar__info-title'>
-            Zcash Network
-          </div>
           <div className='sidebar__info-line'>
             <span className='sidebar__info-line-label'>
               ZEC Price

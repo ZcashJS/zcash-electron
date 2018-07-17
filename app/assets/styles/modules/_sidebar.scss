@@ -4,9 +4,11 @@
   left: 0;
   height: 100vh;
   width: $sidebar-width;
+  border-right: 1px solid #15151d;
 
   &__header {
     padding: 1rem;
+    margin-bottom: 2rem;
   }
 
   &__header-content {
@@ -15,6 +17,7 @@
     flex-direction: row;
     background: $secondary-dark;
     padding: 1rem;
+    border: 1px solid #15151d;
   }
 
   &__header-title {
@@ -92,21 +95,22 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    width: calc(100% - 2rem);
+    width: 100%;
     border-radius: $border-radius;
     padding: 1rem;
   }
 
   &__info-title {
     color: $font-color-label;
-    padding: 0.5rem 1.5rem 1rem 0;
-    font-size: 14px;
+    padding: 0.5rem 1.5rem 1rem 1rem;
+    font-size: 16px;
     font-weight: 700;
   }
 
   &__info-content {
     background: $secondary-dark;
-    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid #15151d;
   }
 
   &__info-line {

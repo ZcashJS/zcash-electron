@@ -1,36 +1,24 @@
-import http from 'http';
+import axios from 'axios';
 import methods from './methods';
 
 class Zcash {
   constructor(conf) {
-    if (conf.username && conf.password) {
-      this.auth = `Basic ${Buffer.from(`${conf.username}:${conf.password}`).toString('base64')}`;
+    if (conf.rpcuser && conf.rpcpassword) {
+      this.auth = `Basic ${Buffer.from(`${conf.rpcuser}:${conf.rpcpassword}`).toString('base64')}`;
     }
 
+    this.user = conf.rpcuser;
+    this.password = conf.rpcpassword;
     this.host = conf.host || '127.0.0.1';
     this.port = conf.port || 8232;
   }
 
-  static connect(rpcuser, rpcpassword) {
-    // const lines = fs.readFileSync(
-    //   os.homedir() + '/Library/Application\ Support/Zcash/zcash.conf',
-    //   'utf8'
-    // ).split('\n');
-
-    // lines.pop();
-
-    // const config = {};
-
-    // lines.forEach((line) => {
-    //  const split = line.split('=');
-    //  const key = split.shift();
-    //  const value = split.join('=');
-    //  config[key] = value;
-    // });
-
+  static connect() {
     return new Zcash({
-      username: rpcuser,
-      password: rpcpassword,
+      username: this.user,
+      password: this.password,
+      host: '127.0.0.1',
+      port: 8232,
     });
   }
 }
@@ -38,7 +26,6 @@ class Zcash {
 methods.forEach((method) => {
   Zcash.prototype[method] = () => new Promise((resolve, reject) => {
     const params = [...arguments];
-
     const postData = JSON.stringify({
       jsonrpc: '2.0',
       id: 1,
@@ -46,48 +33,25 @@ methods.forEach((method) => {
       params,
     });
 
-    const options = {
-      hostname: this.host,
-      port: this.port,
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-        'Content-Length': Buffer.byteLength(postData),
-      },
+    const defaultHeaders = {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+      Authorization: `Basic ${Buffer.from(`${'hrofu'}:${'testing123456'}`).toString('base64')}`,
     };
 
-    if (this.auth) {
-      options.headers.Authorization = this.auth;
-    }
-
-    const req = http.request(options, (res) => {
-      let data = '';
-
-      res.setEncoding('utf8');
-      res.on('data', chunk => data += chunk); // eslint-disable-line
-
-      res.on('end', () => {
-        let response;
-
-        try {
-          response = JSON.parse(data);
-        } catch (error) {
-          return reject(error);
-        }
-
-        if (response.error) {
-          return reject(new Error(response.error));
-        }
-
-        resolve(response.result);
-      });
+    const api = axios.create({
+      baseURL: 'http://localhost:8232',
+      headers: defaultHeaders,
     });
 
-    req.on('error', reject);
-
-    req.write(postData);
-    req.end();
+    return api.post('/', postData)
+      .then((data) => {
+        // console.log(data);
+        resolve(data);
+      })
+      .catch((error) => {
+        reject(error);
+      });
   });
 });
 

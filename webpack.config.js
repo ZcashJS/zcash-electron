@@ -80,6 +80,9 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     hot: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
   },
   plugins: [
     htmlPlugin,

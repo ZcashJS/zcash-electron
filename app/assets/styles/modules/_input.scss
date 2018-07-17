@@ -3,13 +3,13 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-right: 6rem;
-  width: 350px;
+  width: 100%;
 
   &__label {
     color: $font-color-label;
+    padding-left: 0.1rem;
     padding-bottom: 0.5rem;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   &__input,
@@ -25,6 +25,10 @@
     &::placeholder {
       font-weight: 700;
     }
+
+    &:focus {
+      outline: none;
+    }
   }
 
   &__textarea {
@@ -34,13 +38,14 @@
 
   &__input {
     font-size: 20px;
-    height: 36px;
+    height: 46px;
+    width: 100%;
   }
 
   &--large-input {
     .input-wrapper__textarea,
     .input-wrapper__input {
-      width: 550px;
+      width: 100%;
     }
   }
 }

@@ -1,3 +1,9 @@
 .main-container {
-  padding: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: calc(100vh - #{$header-height});
+  height: 100%;
+  position: relative;
 }

@@ -64,6 +64,7 @@
     "autoprefixer": "^8.3.0",
     "axios": "^0.18.0",
     "classnames": "^2.2.5",
+    "decamelize": "^2.0.0",
     "electron": "^1.4.1",
     "history": "^4.7.2",
     "lodash": "^4.17.10",
@@ -81,7 +82,9 @@
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "uuid": "^3.2.1"
+    "stdrpc": "^1.0.0",
+    "uuid": "^3.2.1",
+    "zcash": "^0.2.0"
   },
   "pre-commit": [
     "lint:precommit",

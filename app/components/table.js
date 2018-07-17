@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactTable from 'react-table';
-import '../styles/vendor/react-table.scss';
+// import '../styles/vendor/react-table.scss';
 
 const data = [
   {
