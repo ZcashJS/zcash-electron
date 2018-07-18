@@ -1,53 +1,48 @@
 import React from 'react';
-import Label from '../components/label';
 import Button from '../components/button';
+import Row from '../components/row';
+import Column from '../components/column';
 
 export default () => (
   <div className='main-container'>
-    <div className='main__scroller'>
-      <Label value='Wallet' />
-      <div className='text-color'>
-        Encrypt and further protect the Wallet.
-      </div>
-      <Button title='Encrypt Wallet' />
-      <div className='text-color'>
-        Dump Wallet contents to file.
-      </div>
-      <Button title='Dump Wallet' />
-      <div className='text-color'>
-        Export Wallet contents to file.
-      </div>
-      <Button title='Export Wallet' />
-      <br />
-      <br />
-      <br />
-      <Label value='Keys' />
-      <div className='text-color'>
-        Exports private keys for all addresses into text files.
-      </div>
-      <Button title='Export Private Keys' />
-      <div className='text-color'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.
-      </div>
-      <Button title='Export Private Keys' />
-      <br />
-      <br />
-      <br />
-      <Label value='Keys' />
-      <div className='text-color'>
-        Exports private keys for all addresses into text files.
-      </div>
-      <Button title='Export Private Keys' />
-      <div className='text-color'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      </div>
-      <Button title='Export Private Keys' />
+    <div className='settings__section-title'>
+      Wallet
     </div>
+    <Row>
+      <Column>
+        <div className='settings__option-label'>
+          Encrypt and further protect the Wallet.
+        </div>
+        <Button title='Encrypt Wallet' />
+      </Column>
+    </Row>
+
+    <Row>
+      <Column>
+        <div className='settings__option-label'>
+          Dump Wallet contents to file.
+        </div>
+        <Button title='Dump Wallet' />
+      </Column>
+    </Row>
+    <Row>
+      <Column>
+        <div className='settings__option-label'>
+          Export Wallet contents to file.
+        </div>
+        <Button title='Export Wallet' />
+      </Column>
+    </Row>
+    <div className='settings__section-title'>
+      Keys
+    </div>
+    <Row>
+      <Column>
+        <div className='settings__option-label'>
+          Exports private keys for all addresses into text files.
+        </div>
+        <Button title='Export Private Keys' />
+      </Column>
+    </Row>
   </div>
 );

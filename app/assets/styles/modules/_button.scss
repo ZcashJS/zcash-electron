@@ -11,6 +11,8 @@
   outline: 0;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
+  width: 220px;
+  margin-top: 10px;
 
   &:hover {
     color: $primary-light;
