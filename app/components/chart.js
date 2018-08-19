@@ -7,7 +7,7 @@ export default props => (
       symbol='ZECUSD'
       locale='en'
       theme='Dark'
-      autosize
+      // autosize
       {...props}
     />
   </div>

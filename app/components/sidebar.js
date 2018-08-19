@@ -30,10 +30,10 @@ export default class extends PureComponent<Props> {
       fetchWalletBalance,
     } = this.props;
 
-    fetchBlockHeight();
-    fetchNetworkHashRate();
+    // fetchBlockHeight();
+    // fetchNetworkHashRate();
     fetchMarketCap();
-    fetchWalletBalance();
+    // fetchWalletBalance();
   }
 
   renderHeader = () => (

@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
+import decamelize from 'decamelize';
 import stdrpc from 'stdrpc';
 import methods from '../lib/methods';
 
 export default class Status extends Component {
   state = { data: 0 };
   rpc = stdrpc({
-    url: 'http://127.0.0.1:8232',
+    url: 'http://127.0.0.1:8232/',
     username: 'hrofu',
     password: 'testing123456',
+    methodTransform: decamelize,
   });
 
   handleMethod = (method) => {
     if (!method) return;
+
     this.rpc[method]().then(data => this.setState({ data }));
   }
 

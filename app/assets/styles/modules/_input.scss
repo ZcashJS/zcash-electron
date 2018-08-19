@@ -6,7 +6,7 @@
   width: 100%;
 
   &__label {
-    color: $font-color-label;
+    color: $primary-label;
     padding-left: 0.1rem;
     padding-bottom: 0.5rem;
     font-size: 16px;
@@ -14,12 +14,12 @@
 
   &__input,
   &__textarea {
-    background: $input-bg-color;
+    background: $input-background;
     border-radius: $border-radius;
     border: none;
     box-shadow: none;
     padding: 0.75rem 1.5rem;
-    color: $font-color-input;
+    color: $primary-text;
     width: 100%;
 
     &::placeholder {
@@ -33,7 +33,7 @@
 
   &__textarea {
     font-size: 18px;
-    color: $font-color-input;
+    color: $primary-text;
   }
 
   &__input {
@@ -57,13 +57,13 @@
     &.is-focused,
     &.is-open {
       .Select-control {
-        background: $input-bg-color;
+        background: $input-background;
       }
     }
   }
 
   .Select-control {
-    background: $input-bg-color;
+    background: $input-background;
     border: none;
     height: 36px;
     padding: 0.75rem 1rem 0.75rem 0;

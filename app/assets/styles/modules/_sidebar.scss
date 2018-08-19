@@ -4,26 +4,25 @@
   left: 0;
   height: 100vh;
   width: $sidebar-width;
-  border-right: 1px solid #15151d;
+  border-right: 1px solid $primary-border;
+  background: $primary-sidebar;
 
   &__header {
-    padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $primary-border;
   }
 
   &__header-content {
     border-radius: $border-radius;
     display: flex;
     flex-direction: row;
-    background: $secondary-dark;
     padding: 1rem;
-    border: 1px solid #15151d;
   }
 
   &__header-title {
     display: flex;
     align-items: center;
-    color: $primary-light;
+    color: $primary-text;
 
     img {
       width: 32px;
@@ -40,15 +39,17 @@
   }
 
   &__balance-label {
-    color: $font-color-label;
+    color: $primary-label;
     font-size: 12px;
+    letter-spacing: 0.5px;
   }
 
   &__balance-value {
-    color: $primary-light;
-    font-size: 28px;
-    font-weight: 800;
-    padding-top: 0.5rem;
+    color: $primary-text;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 0.5rem 0 0.35rem;
+    letter-spacing: 0.5px;
 
     &:after {
       content: 'ZEC';
@@ -59,8 +60,8 @@
   }
 
   &__balance-sub-value {
-    color: $font-color-label;
-    font-size: 12px;
+    color: $primary-label;
+    font-size: 14px;
     letter-spacing: 0.5px;
   }
 
@@ -71,23 +72,17 @@
   }
 
   &__menu-item {
-    color: $font-color-sidebar-item;
-    border-radius: $border-radius;
-    font-size: 16px;
-    font-weight: 700;
-    margin: 0 1rem 0 0;
+    color: $primary-text;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
     padding: 0.75rem 1rem 0.75rem 1.5rem;
     cursor: pointer;
     text-decoration: none;
     transition: 0.1s ease-in-out;
 
-    &:hover {
-      color: $primary-light;
-    }
-
     &.active {
-      color: $primary-light;
-      background-color: lighten($primary-dark, 15%);
+      background-color: $primary-sidebar-active;
     }
   }
 
@@ -96,21 +91,18 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    border-radius: $border-radius;
-    padding: 1rem;
   }
 
   &__info-title {
-    color: $font-color-label;
-    padding: 0.5rem 1.5rem 1rem 1rem;
+    color: $primary-label;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
     font-size: 16px;
     font-weight: 700;
   }
 
   &__info-content {
-    background: $secondary-dark;
     padding: 1.5rem;
-    border: 1px solid #15151d;
+    border-top: 1px solid $primary-border;
   }
 
   &__info-line {
@@ -128,12 +120,14 @@
 
   &__info-line-label {
     font-size: 13px;
-    color: $font-color-label;
+    letter-spacing: 0.5px;
+    color: $primary-label;
   }
 
   &__info-line-value {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 13px;
-    color: $primary-light;
+    letter-spacing: 0.5px;
+    color: $primary-text;
   }
 }

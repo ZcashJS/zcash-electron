@@ -8,13 +8,13 @@ html,
 body,
 #app {
   height: 100%;
-  background: $primary-dark;
+  background: $primary-background;
 }
 
 body {
-  font-family: $primary-font-family, 'Helvetica', serif;
+  font-family: 'Helvetica Neue';
   font-weight: $font-regular;
-  color: $primary-light;
+  color: $primary-text;
 }
 
 img {

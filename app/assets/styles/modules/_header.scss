@@ -1,11 +1,12 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
+  background: $primary-sidebar;
 
   &__title {
     color: $primary-light;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
   }
 }
